@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "FirstViewController.h"
+#import "ShiViewController.h"
+#import "MoneyViewController.h"
+#import "QiuViewController.h"
+#import "MyViewController.h"
 
 @implementation AppDelegate
 
@@ -22,6 +27,33 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    self.array = [NSMutableArray arrayWithCapacity:1];
+    FirstViewController *firstvc = [[FirstViewController alloc] initWithStyle:(UITableViewStyleGrouped)];
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:firstvc];
+    
+    [self.array addObject:navi];
+    MyViewController *myvc = [[MyViewController alloc] initWithStyle:(UITableViewStyleGrouped)];
+    UINavigationController *navi1 = [[UINavigationController alloc] initWithRootViewController:myvc];
+    [self.array addObject:navi1];
+    
+    ShiViewController *shivc = [[ShiViewController alloc] initWithStyle:(UITableViewStyleGrouped)];
+    UINavigationController *navi2 = [[UINavigationController alloc] initWithRootViewController:shivc];
+    [self.array addObject:navi2];
+    
+    MoneyViewController *moyvc = [[MoneyViewController alloc] initWithStyle:(UITableViewStyleGrouped)];
+    UINavigationController *navi3 = [[UINavigationController alloc] initWithRootViewController:moyvc];
+    [self.array addObject:navi3];
+    
+    QiuViewController *qiuvc = [[QiuViewController alloc] initWithStyle:(UITableViewStyleGrouped)];
+    UINavigationController *navi4 = [[UINavigationController alloc] initWithRootViewController:qiuvc];
+    [self.array addObject:navi4];
+
+    UITabBarController *tabbarvc = [[UITabBarController alloc] init];
+    tabbarvc.viewControllers = self.array;
+
+    self.window.rootViewController = tabbarvc;
+
+    
     return YES;
 }
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D715EAF916D275F600C9D60D /* ShiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D715EAF816D275F600C9D60D /* ShiViewController.m */; };
+		D715EAFC16D2760F00C9D60D /* MoneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D715EAFB16D2760F00C9D60D /* MoneyViewController.m */; };
+		D715EAFF16D2763900C9D60D /* QiuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D715EAFE16D2763900C9D60D /* QiuViewController.m */; };
+		D715EB0216D2764D00C9D60D /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D715EB0116D2764D00C9D60D /* MyViewController.m */; };
 		D720654C16D22037001A19CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D720654B16D22037001A19CA /* UIKit.framework */; };
 		D720654E16D22037001A19CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D720654D16D22037001A19CA /* Foundation.framework */; };
 		D720655016D22037001A19CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D720654F16D22037001A19CA /* CoreGraphics.framework */; };
@@ -16,9 +20,18 @@
 		D720655E16D22037001A19CA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D720655D16D22037001A19CA /* Default.png */; };
 		D720656016D22037001A19CA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D720655F16D22037001A19CA /* Default@2x.png */; };
 		D720656216D22037001A19CA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D720656116D22037001A19CA /* Default-568h@2x.png */; };
+		D720656A16D2207B001A19CA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D720656916D2207B001A19CA /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D715EAF716D275F600C9D60D /* ShiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShiViewController.h; sourceTree = "<group>"; };
+		D715EAF816D275F600C9D60D /* ShiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShiViewController.m; sourceTree = "<group>"; };
+		D715EAFA16D2760F00C9D60D /* MoneyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyViewController.h; sourceTree = "<group>"; };
+		D715EAFB16D2760F00C9D60D /* MoneyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyViewController.m; sourceTree = "<group>"; };
+		D715EAFD16D2763900C9D60D /* QiuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiuViewController.h; sourceTree = "<group>"; };
+		D715EAFE16D2763900C9D60D /* QiuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiuViewController.m; sourceTree = "<group>"; };
+		D715EB0016D2764D00C9D60D /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		D715EB0116D2764D00C9D60D /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		D720654816D22037001A19CA /* ZLZP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLZP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D720654B16D22037001A19CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D720654D16D22037001A19CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +45,8 @@
 		D720655D16D22037001A19CA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D720655F16D22037001A19CA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D720656116D22037001A19CA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D720656816D2207B001A19CA /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D720656916D2207B001A19CA /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +95,16 @@
 			children = (
 				D720655A16D22037001A19CA /* AppDelegate.h */,
 				D720655B16D22037001A19CA /* AppDelegate.m */,
+				D715EAF716D275F600C9D60D /* ShiViewController.h */,
+				D715EAF816D275F600C9D60D /* ShiViewController.m */,
+				D715EAFA16D2760F00C9D60D /* MoneyViewController.h */,
+				D715EAFB16D2760F00C9D60D /* MoneyViewController.m */,
+				D715EAFD16D2763900C9D60D /* QiuViewController.h */,
+				D715EAFE16D2763900C9D60D /* QiuViewController.m */,
+				D715EB0016D2764D00C9D60D /* MyViewController.h */,
+				D715EB0116D2764D00C9D60D /* MyViewController.m */,
+				D720656816D2207B001A19CA /* FirstViewController.h */,
+				D720656916D2207B001A19CA /* FirstViewController.m */,
 				D720655216D22037001A19CA /* Supporting Files */,
 			);
 			path = ZLZP;
@@ -166,6 +191,11 @@
 			files = (
 				D720655816D22037001A19CA /* main.m in Sources */,
 				D720655C16D22037001A19CA /* AppDelegate.m in Sources */,
+				D720656A16D2207B001A19CA /* FirstViewController.m in Sources */,
+				D715EAF916D275F600C9D60D /* ShiViewController.m in Sources */,
+				D715EAFC16D2760F00C9D60D /* MoneyViewController.m in Sources */,
+				D715EAFF16D2763900C9D60D /* QiuViewController.m in Sources */,
+				D715EB0216D2764D00C9D60D /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +308,7 @@
 				D720656716D22037001A19CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
